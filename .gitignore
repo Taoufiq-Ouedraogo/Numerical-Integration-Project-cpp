@@ -7,7 +7,7 @@ build/
 cmake-build-*/
 
 # Generated documentation
-#docs/
+docs/
 
 # Output files (results, CSV, logs)
 outputs/
