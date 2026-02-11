@@ -17,12 +17,22 @@ It uses **CMake** for building and supports outputting results to a CSV file.
 ├── build/           # CMake build folder (ignored by Git)
 ├── docs/            # Doxygen documentation source
 ├── include/         # Header files
-├── outputs/         # Generated CSV results (ignored by Git)
 ├── src/             # Source files
 ├── CMakeLists.txt
 ├── Doxyfile
 ├── README.md
 └── .gitignore
+```
+
+
+Build Folder
+```python
+├── build/                      # CMake build folder (ignored by Git)
+│   ├── cmake_install.cmake
+│   ├── CMakeFiles
+│   ├── Makefile
+│   └── outputs                 # Generated CSV results 
+│       └── results.csv
 ```
 
 

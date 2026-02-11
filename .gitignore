@@ -1,6 +1,7 @@
 # macOS system files
 .DS_Store
 **/.DS_Store
+*/.DS_Store
 
 # Build artifacts
 build/
@@ -10,7 +11,7 @@ cmake-build-*/
 docs/
 
 # Output files (results, CSV, logs)
-outputs/
+*/.outputs/
 
 # Temporary / backup files
 *~
